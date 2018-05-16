@@ -1,0 +1,4 @@
+---- SystemData Æ¥Åä (3 ÔÚ 1 ÎÄ¼þ ) ----
+Sysdata.h (d:\program files\git\sipmediaproc\sys):extern SYSTEM_DATA_t SystemData;
+Sysdata.h (d:\program files\git\sipmediaproc\sys):#define SYSCFGPATH	(SystemData.cfgPath)
+Sysdata.h (d:\program files\git\sipmediaproc\sys):#define COMMCFGPATH (SystemData.commPath)

@@ -1,6 +1,12 @@
 #ifndef _SYSDATA_H
 #define _SYSDATA_H
 
+
+#include "../lib/syslib.h"
+#include "../mml/mmlsys.h"
+
+
+
 typedef struct
 {
 	unsigned char cfgPath[128];
@@ -12,7 +18,8 @@ typedef struct
 	//sys_config.ini 里面的配置参数
 
 	
-}SYSTEMDATA_t;
+}SYSTEM_DATA_t;
+
 
 
 extern SYSTEM_DATA_t SystemData;

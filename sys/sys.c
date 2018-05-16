@@ -1,27 +1,18 @@
 #include "sysdata.h"
 
+#include "../cfg/cfgsys.h"
 
-
-void configsystem(unsigned char *filename)
-{
-	//从当前地址读取com_config.ini
-
-
-	//从当前地址读取sys_config.ini
-
-	
-}
-
+SYSTEM_DATA_t		SystemData;
 
 
 int main()
 {
 
-	//配置文件读取SYS文件
-	configsystem(SYSCFGPATH)
 
+	strcpy(COMMCFGPATH,"comconfig.ini");
+	
 	//配置文件读取COMCONFIG文件
-    configcomm(COMMCFGPATH)
+    configcomm(COMMCFGPATH);
     
 	//打开网口，启动网口收发功能 SOCKET功能
 

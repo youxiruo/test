@@ -5,7 +5,7 @@ char *
 Fgets(char *buf,int bufsize,FILE *stream)
 {
 	char *rtpr;
-	if((rtpr=fgets(buf,bufsize,stream))==NULL && ferror(fp))
+	if((rtpr=fgets(buf,bufsize,stream))==NULL && ferror(stream))
 		err_ret("fgets err");
 	return (rtpr);
 }
